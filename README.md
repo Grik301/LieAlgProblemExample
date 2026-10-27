@@ -11,6 +11,12 @@ kinematics, geodesic planning). Everything is plain NumPy except the physics, wh
 | `examples/` | the five demos below |
 | `tests/` | pytest suite (Lie-group identities, Jacobians, dynamics consistency, energy conservation, PoE-vs-MuJoCo, IK convergence) |
 
+## Homework assignment
+
+The group assignment (plan on SE(3) → quantify uncertainty → execute on the real Panda with
+ROS 2/Python, libfranka/C++ or MATLAB) is described in **[HOMEWORK.md](HOMEWORK.md)**, together with
+the deliverables, safety rules and grading rubric.
+
 ## Install
 
 ```bash
