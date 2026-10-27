@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "liealg"
+version = "0.1.0"
+description = "Lie groups for robot motion planning: SO(3)/SE(3) toolbox, toy 3-DoF arm with real dynamics, and a MuJoCo Franka Panda demo"
+requires-python = ">=3.9"
+dependencies = ["numpy>=1.24", "scipy>=1.10", "matplotlib>=3.7", "mujoco>=3.1"]
+
+[tool.setuptools.packages.find]
+include = ["liealg*"]
